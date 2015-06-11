@@ -20,8 +20,8 @@ A recursive deep object merge utility function. ObjectParam1 absorbs properties 
 	console.log(obj1); // Output: { foo: 123, bar: 123, key: 'value' }
 
   You can use the optional third parameter set to true to preserve the original object, for example to make a clone.
-	obj1 = { foo: 123, bar: 456 };
 	
+	obj1 = { foo: 123, bar: 456 };
 	obj3 = absorb(obj1, obj2, true);
 	
 	console.log(obj1); // Output: { foo: 123, bar: 456 }
