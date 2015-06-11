@@ -1,0 +1,32 @@
+{
+  "name": "absorb",
+  "version": "0.1.0",
+  "description": "A recursive deep object merge utility function",
+  "main": "index.js",
+  "dependencies": {
+    "is-object": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickMurphy/absorb.git"
+  },
+  "keywords": [
+    "merge",
+    "object",
+    "utility",
+    "recursive",
+    "clone",
+    "extend",
+    "copy"
+  ],
+  "author": "Patrick Murphy <patrick@patrickmurphyphoto.com> (http://resume.patrickmurphywebdesign.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrickMurphy/absorb/issues"
+  },
+  "homepage": "https://github.com/PatrickMurphy/absorb#readme"
+}
