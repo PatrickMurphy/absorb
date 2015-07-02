@@ -43,5 +43,5 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Release History
 
-* 1.0.0 Add PreserveObject paramete, allowing option to only merge if object 1 does not contain key
+* 1.0.0 Add PreserveObject parameter, allowing option to only merge if object 1 does not contain key
 * 0.1.0 Initial release
