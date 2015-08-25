@@ -1,4 +1,5 @@
-var isObject = require('is-object');
+var isObject = require('is-object'),
+		cloner = require('clone');
 
 var absorb = function (destObject, sourceObject, clone, preserveOriginal) {
 	// default values
@@ -6,7 +7,7 @@ var absorb = function (destObject, sourceObject, clone, preserveOriginal) {
 	preserveOriginal = preserveOriginal || false;
 
 	var index,
-		tempObj = destObject;
+		tempObj = cloner(destObject);
 
 	for (index in sourceObject) { // for each property in source
 		if (sourceObject.hasOwnProperty(index)) { // if property is not part of prototype

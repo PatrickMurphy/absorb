@@ -4,6 +4,7 @@
   "description": "A recursive deep object merge utility function",
   "main": "index.js",
   "dependencies": {
+    "clone": "^1.0.2",
     "is-object": "^1.0.1"
   },
   "devDependencies": {},
