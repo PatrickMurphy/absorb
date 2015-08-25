@@ -1,6 +1,6 @@
 {
   "name": "absorb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A recursive deep object merge utility function",
   "main": "index.js",
   "dependencies": {
